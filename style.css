@@ -225,25 +225,11 @@ pointer-events: none;
 .custom-navbar-nav .nav-link[href="#contact"]::after {
   background-color: #1500fc;
 }
-.custom-navbar-nav .nav-link[href="#footer"] {
-  position: relative;
-  text-decoration: none;
-  color: #e90000;
+.custom-navbar-nav .nav-link[href="#footer"]:hover {
+  color: #fd79a8;
 }
-
 .custom-navbar-nav .nav-link[href="#footer"]::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 0%;
-  height: 2px;
-  background-color: #e90000;
-  transition: width 0.3s ease;
-}
-
-.custom-navbar-nav .nav-link[href="#footer"]:hover::after {
-  width: 100%;
+  background-color: #fd79a8;
 }
 
 .home-section {
