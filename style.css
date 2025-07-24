@@ -228,6 +228,7 @@ pointer-events: none;
 .custom-navbar-nav .nav-link[href="#footer"] {
   position: relative;
   text-decoration: none;
+  color: #e90000;
 }
 
 .custom-navbar-nav .nav-link[href="#footer"]::after {
@@ -244,6 +245,7 @@ pointer-events: none;
 .custom-navbar-nav .nav-link[href="#footer"]:hover::after {
   width: 100%;
 }
+
 .home-section {
   height: 100vh;
   background-color: #212121;
