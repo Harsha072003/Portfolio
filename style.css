@@ -225,13 +225,25 @@ pointer-events: none;
 .custom-navbar-nav .nav-link[href="#contact"]::after {
   background-color: #1500fc;
 }
-.custom-navbar-nav .nav-link[href="#footer"]:hover {
-  color: #e90000;
+.custom-navbar-nav .nav-link[href="#footer"] {
+  position: relative;
+  text-decoration: none;
 }
+
 .custom-navbar-nav .nav-link[href="#footer"]::after {
-  color: #e90000;
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #e90000;
+  transition: width 0.3s ease;
 }
-/* Section full screen with dark background */
+
+.custom-navbar-nav .nav-link[href="#footer"]:hover::after {
+  width: 100%;
+}
 .home-section {
   height: 100vh;
   background-color: #212121;
