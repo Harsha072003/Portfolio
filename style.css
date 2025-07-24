@@ -157,15 +157,15 @@ pointer-events: none;
 }
 
 .dev-logo {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 700;
-  font-size: 24px;
-  color: #ffffff;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  transition: color 0.3s ease, transform 0.2s ease;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: color 0.3s ease, transform 0.2s ease;
 }
-/* Base style for all nav links */
+
 .custom-navbar-nav .nav-link {
   position: relative;
   display: inline-block;
